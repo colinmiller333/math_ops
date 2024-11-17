@@ -1,5 +1,7 @@
 def divide_numbers(a, b):
     """Divides two numbers and returns the result."""
+    if b == 0:
+        return "Cannot divide by 0, try again!"
     return a / b  # Potential division by zero error
 
 if __name__ == "__main__":
